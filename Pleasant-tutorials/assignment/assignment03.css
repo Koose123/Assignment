@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*utils*/
+.character h2{
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.p-card{
+     padding: 20px 15px;
+}
+
+/*utils*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(16, 14, 14);
+    width: 100vw;
+    height: 100vh;
+}
+.main-container .company-name{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.main-container .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto; 
+    padding:.5rem 1rem;
+    flex-direction: row;
+}
+.main-container .hero-section {
+ margin:2rem auto;
+   
+}
+
+.main-container .hero-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 0rem 20rem;
+    text-align: center;
+}
+.main-container .search{
+    background-color: gray;
+    color: white;
+    width: 70rem;
+    height: 15rem;
+    margin: 10px 5rem;
+    padding: 10px 5px;
+    border-radius: 5px;
+   
+}
+.main-container .under-search{
+    outline: none;
+    color: white;
+    margin: .9rem 3rem;
+    padding: rem 1rem
+    
+}
+.main-container .under-search li{
+    display: inline-flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-right: 10px;
+    margin: 0rem 2rem;
+    cursor: pointer;
+}
+.first00{
+    background-color: purple;
+    width: 20rem;
+    height: 10rem;
+    margin: 2rem 0px;
+    border-radius: 5px;
+}
+.second00{
+    background-color: rgb(249, 174, 60);
+    width: 20rem;
+    height: 10rem;
+    margin: 2rem 0px;
+    border-radius: 5px;
+}
+.thrid00{
+    background-color: rgb(188, 69, 14);
+    width: 20rem;
+    height: 10rem;
+    margin: 2rem 0px;
+    border-radius: 5px;
+}
+.character{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin: 0rem 2rem;
+}
+
+@media only screen and (max-width:600px) {
+
+    .main-container .hero-section h1{
+       margin:inherit 0rem;
+    }
+
+    .main-container .search{
+        width: 90%;
+        height: 15rem;
+        margin: 10px 1rem;       
+    }
+    .character{
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        margin:0rem .5rem
+    }
+}

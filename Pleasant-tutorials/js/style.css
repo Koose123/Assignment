@@ -1,0 +1,12 @@
+.my-job{
+    color:red;
+    font-size:1.5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
